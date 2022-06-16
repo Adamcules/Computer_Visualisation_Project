@@ -21,4 +21,8 @@ while True:
 # After the loop release the cap object
 cap.release()
 # Destroy all the windows
+<<<<<<< HEAD
 cv2.destroyAllWindows()
+=======
+cv2.destroyAllWindows()
+>>>>>>> 34c4e558d1e675b442b8f2d5101aefedd9597bf2
