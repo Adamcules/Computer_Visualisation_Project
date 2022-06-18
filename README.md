@@ -18,6 +18,8 @@ Code was downloaded from the AI-Core teaching programme to run the keras model w
 The code for the camera controlled game was nearly identical to the manual game except that the get_user_choice function was replaced with the get_prediction function. This new function made calls to the 'prediction' variable from the imported modified_model_download_code.py file. This file was modified from the original AI-Core file to introduce a 5 second timer to close the camera window using the time.time() function, and a new function called camera_loop and run_model were defined in order that calls could be made from the main file to run the code properly within this imported module. 
 A user input was added to the 'play' function such that a user has to press enter in between rounds to start the next round.
 
+The game could be improved by adding a visual countdown timer overlaid on the video. The code could also be made tidier by incorporating the various functions within classes instead.
+
 
 
 
