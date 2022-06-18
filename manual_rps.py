@@ -1,6 +1,6 @@
 import random
 
-print ("Welcome to Rock Paper Scissors. First to win 3 rounds wins the game!")
+print ("Welcome to the classic game of Rock Paper Scissors. First to win 3 rounds wins the game!")
 
 user_wins = 0
 computer_wins = 0
